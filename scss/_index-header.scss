@@ -1,11 +1,9 @@
 /* ------------- Стили для секции Header ------------- */
-.footer {
-}
 .contaiter {
      max-width: $widthdefault;
      margin: 0 auto;
 }
-.footer-wrapper {
+.header-wrapper {
      padding: 22px 0px 22px 0px;
      display: flex;
      justify-content: space-between;
@@ -19,9 +17,6 @@
           width: 197px;
           height: 56.79px;
           object-fit: cover;
-     }
-
-     &__navigation {
      }
 
      &__list {
@@ -46,15 +41,18 @@
      }
 
      &__button {
-     }
-
-     &__button-link {
+          display: flex;
+          align-items: center;
      }
 
      &__button-image {
+          width: 24px;
+          height: 24px;
+          object-fit: cover;
+          margin: 0px 5px 0px 0px;
      }
 
-     &__button-text {
+     &__button-link {
           font-family: $fontfamily;
           font-weight: 700;
           font-size: 16px;
@@ -63,9 +61,74 @@
      }
 }
 
+.menu-burger {
+     display: none;
+}
+
 /* ------------- Медиа-запросы для секции Header ------------- */
 @media (min-width: 992px) and (max-width: 1199.9px) {
-     .footer-wrapper {
+     .header-wrapper {
           margin: 0px 12px 0px 12px;
+     }
+}
+
+@media (min-width: 319.9px) and (max-width: 991.9px) {
+     .header-wrapper {
+          margin: 0px 0px 0px 12px;
+          &__navigation {
+               display: none;
+          }
+          &__enter {
+               display: none;
+          }
+     }
+     .menu-burger {
+          display: block;
+          position: relative;
+          width: 35px;
+          height: 20px;
+          right: 40px;
+          cursor: pointer;
+
+          &__item {
+               position: absolute;
+               background-color: #000;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+               width: 100%;
+               height: 2px;
+          }
+          &__item::before {
+               content: "";
+               position: absolute;
+               background-color: $colorfontdefault;
+               left: 0;
+               top: -10px;
+               width: 100%;
+               height: 2px;
+          }
+          &__item::after {
+               content: "";
+               position: absolute;
+               background-color: $colorfontdefault;
+               left: 0;
+               top: 10px;
+               width: 100%;
+               height: 2px;
+          }
+     }
+     .menu-burger__active {
+          &__item {
+               background-color: transparent;
+          }
+          &__item::before {
+               top: 0;
+               transform: rotate(45deg);
+          }
+          &__item::after {
+               top: 0;
+               transform: rotate(-45deg);
+          }
      }
 }
