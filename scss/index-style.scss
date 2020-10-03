@@ -1,4 +1,8 @@
 //Переменные
-@import "_variables.scss"; // всегда подключать вначале
+@import "_index-variables.scss"; // всегда подключать вначале
 //Обнуление стилей
 @import "_nullstyle.scss";
+//Подкючение файлов шрифтов главной страницы
+@import "_index-fonts.scss";
+//Блок header
+@import "_index-header.scss";
