@@ -219,38 +219,44 @@ h6 {
   .menu-burger {
     display: block;
     position: relative;
-    width: 35px;
-    height: 20px;
     right: 40px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #161616;
     cursor: pointer;
   }
   .menu-burger__item {
     position: absolute;
-    background-color: #000;
+    background-color: #fff;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    width: 100%;
+    width: 30px;
     height: 2px;
   }
   .menu-burger__item::before {
     content: "";
     position: absolute;
-    background-color: #161616;
+    background-color: #fff;
     left: 0;
     top: -10px;
-    width: 100%;
+    width: 30px;
     height: 2px;
   }
   .menu-burger__item::after {
     content: "";
     position: absolute;
-    background-color: #161616;
+    background-color: #fff;
     left: 0;
     top: 10px;
-    width: 100%;
+    width: 30px;
     height: 2px;
+  }
+  .menu-burger__active {
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
   }
   .menu-burger__active__item {
     background-color: transparent;
