@@ -1,66 +1,66 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+     padding: 0px;
+     margin: 0px;
+     border: 0px;
 }
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
+     box-sizing: border-box;
 }
 :focus,
 :active {
-    outline: none;
+     outline: none;
 }
 a:focus,
 a:active {
-    outline: none;
+     outline: none;
 }
 aside,
 nav,
 footer,
 header,
 section {
-    display: block;
+     display: block;
 }
 html,
 body {
-    height: 100%;
-    position: relative;
-    width: 100%;
-    color: $colorfontdefault;
-    background-color: $bgcolor;
-    font-size: 100%;
-    line-height: 1;
-    font-size: $fontsizedefault;
-    font-family: $fontfamily;
+     height: 100%;
+     position: relative;
+     width: 100%;
+     color: $colorfontdefault;
+     background-color: $bgcolor;
+     font-size: 100%;
+     line-height: 1;
+     font-size: $fontsizedefault;
+     font-family: $fontfamily;
 }
 input,
 textarea {
-    font-family: $fontfamily;
+     font-family: $fontfamily;
 }
 input::-ms-clear {
-    display: none;
+     display: none;
 }
 button {
-    cursor: pointer;
+     cursor: pointer;
 }
 button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
+     padding: 0;
+     border: 0;
 }
 a,
 a:visited {
-    text-decoration: none;
+     text-decoration: none;
 }
 a:hover {
-    text-decoration: none;
+     text-decoration: none;
 }
 ul li {
-    list-style: none;
+     list-style: none;
 }
 img {
-    vertical-align: top;
+     vertical-align: top;
 }
 h1,
 h2,
@@ -68,19 +68,17 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: inherit;
-    font-size: inherit;
+     font-weight: inherit;
+     font-size: inherit;
 }
 .wrapper {
-    width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+     width: 100%;
+     min-height: 100%;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
 }
 
 .content {
-    flex: 1 1 auto;
+     flex: 1 1 auto;
 }
-//font-family: 'Mulish', sans-serif;
-//font-family: 'Nunito', sans-serif;
