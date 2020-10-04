@@ -6,11 +6,12 @@
 .header-wrapper {
      padding: 22px 0px 22px 0px;
      display: flex;
-     justify-content: space-between;
+     justify-content: center;
      align-items: center;
      &__logo {
           max-width: 197px;
           min-height: 56.79px;
+          margin: 0px 55px 0px 0px;
      }
 
      &__logo-image {
@@ -24,7 +25,11 @@
      }
 
      &__item {
-          margin: 0px 10px 0px 10px;
+          margin: 0px 0px 0px 41px;
+     }
+
+     &__navigation {
+          margin: 0px 134px 0px 0px;
      }
 
      &__item-link {
@@ -43,13 +48,14 @@
      &__button {
           display: flex;
           align-items: center;
+          margin: 2px 0px 0px 0px;
      }
 
      &__button-image {
-          width: 24px;
-          height: 24px;
+          width: 18px;
+          height: 18px;
           object-fit: cover;
-          margin: 0px 5px 0px 0px;
+          margin: 0px 7px 0px 0px;
      }
 
      &__button-link {
@@ -63,76 +69,4 @@
 
 .menu-burger {
      display: none;
-}
-
-/* ------------- Медиа-запросы для секции Header ------------- */
-@media (min-width: 992px) and (max-width: 1199.9px) {
-     .header-wrapper {
-          margin: 0px 12px 0px 12px;
-     }
-}
-
-@media (min-width: 319.9px) and (max-width: 991.9px) {
-     .header-wrapper {
-          margin: 0px 0px 0px 12px;
-          &__navigation {
-               display: none;
-          }
-          &__enter {
-               display: none;
-          }
-     }
-
-     .menu-burger {
-          display: block;
-          position: relative;
-          right: 40px;
-          width: 55px;
-          height: 55px;
-          border-radius: 50%;
-          background-color: #161616;
-          cursor: pointer;
-
-          &__item {
-               position: absolute;
-               background-color: #fff;
-               top: 50%;
-               left: 50%;
-               transform: translate(-50%, -50%);
-               width: 30px;
-               height: 2px;
-          }
-          &__item::before {
-               content: "";
-               position: absolute;
-               background-color: #fff;
-               left: 0;
-               top: -10px;
-               width: 30px;
-               height: 2px;
-          }
-          &__item::after {
-               content: "";
-               position: absolute;
-               background-color: #fff;
-               left: 0;
-               top: 10px;
-               width: 30px;
-               height: 2px;
-          }
-     }
-     .menu-burger__active {
-          transition: 0.5s all;
-          &__item {
-               background-color: transparent;
-          }
-          &__item::before {
-               top: 0;
-               transform: rotate(45deg);
-          }
-          &__item::after {
-               top: 0;
-               transform: rotate(-45deg);
-          }
-     }
 }
