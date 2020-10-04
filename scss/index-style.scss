@@ -1,5 +1,8 @@
 //Переменные
 @import "_index-variables.scss"; // всегда подключать вначале
+//
+//
+//
 //Обнуление стилей
 @import "_nullstyle.scss";
 //Подкючение файлов шрифтов главной страницы
@@ -8,5 +11,10 @@
 @import "_index-header.scss";
 //Блок mainbg
 @import "_index-mainbg.scss";
+//Блок invest
+@import "_index-invest.scss";
+//
+//
+//
 //Медиа-запросы
-@import "_index-media.scss"; //всегда подключать внизу
+@import "_index-media.scss"; //всегда подключать вконце

@@ -51,6 +51,14 @@
                line-height: 20px;
           }
      }
+     .invest-wrapper {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          &__one {
+               margin: 0px 0px 25px 0px;
+          }
+     }
 }
 
 @media (min-width: 480px) and (max-width: 767.9px) {
@@ -87,7 +95,21 @@
           }
      }
      .mainbg-button {
-          margin: 30px auto;
+          margin: 0px 0px 0px 0px;
+          &__button {
+               margin: 30px auto;
+          }
+     }
+
+     .invest-wrapper {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          &__one {
+               margin: 0px 0px 25px 0px;
+          }
+          &__two {
+          }
      }
 }
 
@@ -95,7 +117,7 @@
      .mainbg {
           padding: 0px 15px 0px 15px;
           max-width: 100%;
-          min-height: 500px;
+          min-height: 480px;
      }
      .mainbg-title {
           max-width: 370px;
@@ -125,7 +147,53 @@
           }
      }
      .mainbg-button {
-          margin: 30px auto;
+          margin: 0px 0px 0px 0px;
+          &__button {
+               margin: 30px auto;
+          }
+     }
+     .invest-title {
+          font-size: 30px;
+     }
+     .invest-wrapper {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          &__one {
+               margin: 0px 0px 25px 0px;
+               width: 300px;
+               min-height: 180px;
+          }
+
+          &__one-title {
+               font-size: 20px;
+          }
+
+          &__one-button {
+               max-width: 200px;
+               min-height: 40px;
+               padding: 0px 25px 0px 25px;
+               margin: 0px 0px 0px 48px;
+               font-size: 12px;
+          }
+
+          &__two {
+               padding: 53px 0px 53px 0px;
+               width: 300px;
+               min-height: 180px;
+          }
+
+          &__two-title {
+               font-size: 20px;
+          }
+
+          &__two-button {
+               max-width: 220px;
+               min-height: 40px;
+               font-size: 12px;
+               margin: 0px 0px 0px 45px;
+               padding: 0px 20px 0px 20px;
+          }
      }
 }
 
@@ -145,8 +213,8 @@
           display: block;
           position: relative;
           right: 20px;
-          width: 55px;
-          height: 55px;
+          width: 52px;
+          height: 52px;
           border-radius: 50%;
           background-color: #161616;
           cursor: pointer;
