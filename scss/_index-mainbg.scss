@@ -1,7 +1,7 @@
 /* ------------- Стили для секции mainbg ------------- */
 .mainbg {
-     background-image: url("../image/optimized/bg_main.webp");
-     background-position: center;
+     background-image: url("../image/optimized/bg_main.webp"), url("../image/bg_main-optimized.jpg"); //jpg - оптимизированный jpg для safari, webp - для всех остальных браузеров
+     background-position: 50% 50%;
      background-repeat: no-repeat;
      background-size: cover;
      max-width: 100%;
