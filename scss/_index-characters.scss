@@ -1,1 +1,291 @@
 /* ------------- Стили для секции characters ------------- */
+.characters {
+}
+.container {
+     max-width: $widthdefault;
+     margin: 0 auto;
+}
+.characters-title {
+     font-family: $fontfamily;
+     font-weight: 800;
+     font-size: 36px;
+     line-height: 48px;
+     text-align: center;
+     color: $colorfontdefault;
+     margin: 0px 0px 50px 0px;
+}
+.characters-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: start;
+}
+.characters-leftside {
+     width: 430px;
+     margin: 0px 70px 0px 0px;
+     &__item1 {
+          margin: 120px 0px 418px 0px;
+     }
+
+     &__item1-title {
+          font-family: $fontfamily;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: $colorfontdefault;
+          margin: 0px 0px 20px 0px;
+     }
+
+     &__item1-text {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 24px;
+          color: $colorfontdefault;
+     }
+
+     &__item2 {
+     }
+
+     &__item2-title {
+          font-family: $fontfamily;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: $colorfontdefault;
+          margin: 0px 0px 20px 0px;
+     }
+
+     &__item2-text {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 24px;
+          color: $colorfontdefault;
+     }
+}
+.characters-rightside {
+     width: 670px;
+     display: flex;
+     flex-direction: column;
+     &__item1 {
+          max-width: 286px;
+          min-height: 246px;
+          align-self: flex-start;
+     }
+
+     &__item1-image {
+          width: 286px;
+          height: 200px;
+          overflow: hidden;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__item1-image-photo1 {
+          width: 286px;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 40px;
+          overflow: hidden;
+     }
+
+     &__item1-title {
+          text-align: left;
+     }
+
+     &__item1-text {
+          text-align: left;
+     }
+
+     &__item2 {
+          max-width: 354px;
+          min-height: 294px;
+          align-self: flex-end;
+          margin: -75px 0px 0px 0px;
+     }
+
+     &__item2-image {
+          width: 354px;
+          height: 248px;
+          overflow: hidden;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__item2-image-photo2 {
+          width: 354px;
+          height: 248px;
+          object-fit: cover;
+          border-radius: 40px;
+          overflow: hidden;
+     }
+
+     &__item2-title {
+          margin-left: 66%;
+     }
+
+     &__item2-text {
+          margin-left: 41%;
+     }
+
+     &__item3 {
+          max-width: 208px;
+          min-height: 185px;
+          align-self: flex-start;
+          margin: -125px 0px 0px 0px;
+     }
+
+     &__item3-image {
+          width: 199px;
+          height: 139px;
+          overflow: hidden;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__item3-image-photo3 {
+          width: 199px;
+          height: 139px;
+          object-fit: cover;
+          border-radius: 40px;
+          overflow: hidden;
+     }
+
+     &__item3-title {
+          text-align-last: left;
+     }
+
+     &__item3-text {
+          text-align-last: left;
+     }
+
+     &__item4 {
+          max-width: 216px;
+          min-height: 197px;
+          align-self: flex-end;
+     }
+
+     &__item4-image {
+          width: 216px;
+          height: 151px;
+          overflow: hidden;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__item4-image-photo4 {
+          width: 216px;
+          height: 151px;
+          object-fit: cover;
+          border-radius: 40px;
+          overflow: hidden;
+     }
+
+     &__item4-title {
+          text-align-last: left;
+     }
+
+     &__item4-text {
+          text-align-last: left;
+     }
+
+     &__item5 {
+          max-width: 360px;
+          min-height: 298px;
+          align-self: flex-start;
+          margin: -60px 0px 44px 0px;
+     }
+
+     &__item5-image {
+          width: 360px;
+          height: 252px;
+          overflow: hidden;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__item5-image-photo5 {
+          width: 360px;
+          height: 252px;
+          object-fit: cover;
+          border-radius: 40px;
+          overflow: hidden;
+     }
+
+     &__item5-title {
+          text-align-last: left;
+     }
+
+     &__item5-text {
+          text-align-last: left;
+     }
+
+     &__item6 {
+          max-width: 286px;
+          min-height: 248px;
+          align-self: flex-start;
+          margin: 0px 0px 0px 240px;
+     }
+
+     &__item6-image {
+          width: 286px;
+          height: 200px;
+          overflow: hidden;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__item6-image-photo6 {
+          width: 286px;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 40px;
+          overflow: hidden;
+     }
+
+     &__item6-title {
+          margin-left: 59%;
+     }
+
+     &__item6-text {
+          margin-left: 27%;
+     }
+
+     &__item7 {
+          max-width: 216px;
+          min-height: 197px;
+          align-self: flex-start;
+          margin: -45px 0px 0px 0px;
+     }
+
+     &__item7-image {
+          width: 216px;
+          height: 151px;
+          overflow: hidden;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__item7-image-photo7 {
+          width: 216px;
+          height: 151px;
+          object-fit: cover;
+          border-radius: 40px;
+          overflow: hidden;
+     }
+
+     &__item7-title {
+          text-align-last: left;
+     }
+
+     &__item7-text {
+          text-align-last: left;
+     }
+}
+.rightside-title {
+     font-family: $fontfamily;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 18px;
+     color: #000000;
+}
+.rightside-text {
+     font-family: "Lato Light";
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 18px;
+     color: #000000;
+}

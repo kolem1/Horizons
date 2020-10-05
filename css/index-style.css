@@ -404,6 +404,325 @@ h6 {
 }
 
 /* ------------- Стили для секции characters ------------- */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.characters-title {
+  font-family: "Lato Regular";
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #161616;
+  margin: 0px 0px 50px 0px;
+}
+
+.characters-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.characters-leftside {
+  width: 430px;
+  margin: 0px 70px 0px 0px;
+}
+
+.characters-leftside__item1 {
+  margin: 120px 0px 418px 0px;
+}
+
+.characters-leftside__item1-title {
+  font-family: "Lato Regular";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #161616;
+  margin: 0px 0px 20px 0px;
+}
+
+.characters-leftside__item1-text {
+  font-family: "Lato Light";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #161616;
+}
+
+.characters-leftside__item2-title {
+  font-family: "Lato Regular";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #161616;
+  margin: 0px 0px 20px 0px;
+}
+
+.characters-leftside__item2-text {
+  font-family: "Lato Light";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #161616;
+}
+
+.characters-rightside {
+  width: 670px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.characters-rightside__item1 {
+  max-width: 286px;
+  min-height: 246px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.characters-rightside__item1-image {
+  width: 286px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+}
+
+.characters-rightside__item1-image-photo1 {
+  width: 286px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.characters-rightside__item1-title {
+  text-align: left;
+}
+
+.characters-rightside__item1-text {
+  text-align: left;
+}
+
+.characters-rightside__item2 {
+  max-width: 354px;
+  min-height: 294px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: -75px 0px 0px 0px;
+}
+
+.characters-rightside__item2-image {
+  width: 354px;
+  height: 248px;
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+}
+
+.characters-rightside__item2-image-photo2 {
+  width: 354px;
+  height: 248px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.characters-rightside__item2-title {
+  margin-left: 66%;
+}
+
+.characters-rightside__item2-text {
+  margin-left: 41%;
+}
+
+.characters-rightside__item3 {
+  max-width: 208px;
+  min-height: 185px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: -125px 0px 0px 0px;
+}
+
+.characters-rightside__item3-image {
+  width: 199px;
+  height: 139px;
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+}
+
+.characters-rightside__item3-image-photo3 {
+  width: 199px;
+  height: 139px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.characters-rightside__item3-title {
+  text-align-last: left;
+}
+
+.characters-rightside__item3-text {
+  text-align-last: left;
+}
+
+.characters-rightside__item4 {
+  max-width: 216px;
+  min-height: 197px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.characters-rightside__item4-image {
+  width: 216px;
+  height: 151px;
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+}
+
+.characters-rightside__item4-image-photo4 {
+  width: 216px;
+  height: 151px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.characters-rightside__item4-title {
+  text-align-last: left;
+}
+
+.characters-rightside__item4-text {
+  text-align-last: left;
+}
+
+.characters-rightside__item5 {
+  max-width: 360px;
+  min-height: 298px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: -60px 0px 44px 0px;
+}
+
+.characters-rightside__item5-image {
+  width: 360px;
+  height: 252px;
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+}
+
+.characters-rightside__item5-image-photo5 {
+  width: 360px;
+  height: 252px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.characters-rightside__item5-title {
+  text-align-last: left;
+}
+
+.characters-rightside__item5-text {
+  text-align-last: left;
+}
+
+.characters-rightside__item6 {
+  max-width: 286px;
+  min-height: 248px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0px 0px 0px 240px;
+}
+
+.characters-rightside__item6-image {
+  width: 286px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+}
+
+.characters-rightside__item6-image-photo6 {
+  width: 286px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.characters-rightside__item6-title {
+  margin-left: 59%;
+}
+
+.characters-rightside__item6-text {
+  margin-left: 27%;
+}
+
+.characters-rightside__item7 {
+  max-width: 216px;
+  min-height: 197px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: -45px 0px 0px 0px;
+}
+
+.characters-rightside__item7-image {
+  width: 216px;
+  height: 151px;
+  overflow: hidden;
+  margin: 0px 0px 10px 0px;
+}
+
+.characters-rightside__item7-image-photo7 {
+  width: 216px;
+  height: 151px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.characters-rightside__item7-title {
+  text-align-last: left;
+}
+
+.characters-rightside__item7-text {
+  text-align-last: left;
+}
+
+.rightside-title {
+  font-family: "Lato Regular";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.rightside-text {
+  font-family: "Lato Light";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
 /* ------------- Медиа-запросы ------------- */
 @media (min-width: 992px) and (max-width: 1199.9px) {
   .header-wrapper {
