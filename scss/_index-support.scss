@@ -1,0 +1,127 @@
+/* ------------- Стили для секции mainbg ------------- */
+.support {
+     margin: 0px 0px 100px 0px;
+}
+.container {
+     max-width: $widthdefault;
+     margin: 0 auto;
+}
+.support-title {
+     font-family: $fontfamily;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 48px;
+     letter-spacing: 0.4px;
+     color: $colorfontdefault;
+     text-align: center;
+     margin: 0px 0px 16px 0px;
+}
+.support-text {
+     max-width: 770px;
+     margin: 0 auto;
+     font-family: "Lato Light";
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 24px;
+     text-align: center;
+     color: $colorfontdefault;
+}
+.support-wrapper {
+     margin: 42px 0px 50px 0px;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     &__item {
+          max-width: 270px;
+          min-height: 400px;
+          border-radius: 15px;
+          overflow: hidden;
+          box-shadow: 0px 4px 20px rgba(66, 119, 255, 0.1);
+          background: #ffffff;
+     }
+
+     &__item-image {
+          padding: 149px 0px 0px 20px;
+          margin: 0px 0px 12px 0px;
+     }
+
+     &__item-image-title {
+          font-family: $fontfamily;
+          font-weight: 800;
+          font-size: 18px;
+          line-height: 134.77%;
+          text-transform: uppercase;
+          color: #ffffff;
+          margin: 0px 0px 5px 0px;
+     }
+
+     &__item-image-subtitle {
+          font-family: $fontfamily;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 134.77%;
+          color: #ffffff;
+     }
+
+     &__item-text {
+          max-width: 230px;
+          margin: 0 auto;
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 20px;
+          color: $colorfontdefault;
+     }
+}
+.item-1 {
+     background-image: url("../image/optimized/bg_life.webp"), url("../image/bg_life.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 270px;
+     height: 210px;
+}
+.item-2 {
+     background-image: url("../image/optimized/bg_comedy.webp"), url("../image/bg_comedy.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 270px;
+     height: 210px;
+}
+.item-3 {
+     background-image: url("../image/optimized/bg_combinico.webp"), url("../image/bg_combinico.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 270px;
+     height: 210px;
+}
+.item-4 {
+     background-image: url("../image/optimized/bg_shop.webp"), url("../image/bg_shop.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 270px;
+     height: 210px;
+}
+.support-button {
+     max-width: 264px;
+     min-height: 50px;
+     margin: 0 auto;
+     background: #ffffff;
+     border: 1px solid #4277ff;
+     border-radius: 25px;
+     filter: drop-shadow(0px 2px 10px rgba(66, 119, 255, 0.2));
+     &__button {
+          max-width: 264px;
+          min-height: 50px;
+          padding: 14px 36px 14px 35px;
+          font-family: $fontfamily;
+          font-size: 16px;
+          line-height: 134.77%;
+          text-align: center;
+          color: #4277ff;
+          background: transparent;
+     }
+}
