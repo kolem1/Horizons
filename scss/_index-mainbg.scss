@@ -3,7 +3,7 @@
      background-image: url("../image/optimized/bg_main.webp"), url("../image/bg_main-optimized.jpg"); //jpg - оптимизированный jpg для safari, webp - для всех остальных браузеров
      background-position: 50% 50%;
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size: auto 100%;
      max-width: 100%;
      min-height: 750px;
      position: relative;

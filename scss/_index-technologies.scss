@@ -1,0 +1,95 @@
+/* ------------- Стили для секции technologies ------------- */
+.technologies {
+}
+.container {
+     max-width: $widthdefault;
+     margin: 0 auto;
+}
+.technologies-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     margin: 0px 0px 100px 0px;
+}
+.technologies-leftside {
+     background-image: url("../image/optimized/bg_picture.webp"), url("../image/bg_picture-optimized.jpg");
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 647px;
+     min-height: 500px;
+     border-radius: 1px;
+     margin: 0px 89px 0px -135px;
+     &__overlay {
+          width: 647px;
+          min-height: 500px;
+          background: rgba(66, 119, 255, 0.9);
+          padding: 94px 82px 94px 135px;
+     }
+     &__title {
+          font-family: $fontfamily;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: #ffffff;
+          margin: 0px 0px 20px 0px;
+          letter-spacing: 0.2px;
+     }
+
+     &__text {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 24px;
+          color: #ffffff;
+     }
+}
+
+.technologies-rightside {
+     width: 568px;
+     min-height: 446px;
+     margin: 0px 0px 0px 0px;
+     &__wrapper {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+     }
+
+     &__item {
+          width: 269px;
+          min-height: 198px;
+          margin: 19px 30px 50px 0px;
+     }
+     &__image {
+          width: 80px;
+          height: 76px;
+          margin: 2px 0px 9px -11px;
+     }
+
+     &__item:nth-child(2) {
+          margin: 19px 0px 50px 0px;
+     }
+     &__item:nth-child(3) {
+          margin: 0px 0px 0px 0px;
+     }
+     &__item:nth-child(4) {
+          margin: 0px 0px 50px 0px;
+     }
+
+     &__item-title {
+          font-family: $fontfamily;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: $colorfontdefault;
+          margin: 0px 0px 15px 0px;
+     }
+
+     &__item-text {
+          font-family: $fontfamily;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 18px;
+          color: $colorfontdefault;
+     }
+}
