@@ -987,6 +987,7 @@ h6 {
   background: transparent;
 }
 
+/* ------------- Стили для секции cardvideo ------------- */
 /* ------------- Медиа-запросы ------------- */
 @media (min-width: 992px) and (max-width: 1199.9px) {
   .header-wrapper {
